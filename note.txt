@@ -1,0 +1,14 @@
+backend package
+yarn add express bcrypt body-parser concurrently cookie-parser date-and-time dotenv formidable jsonwebtoken mongoo
+se nodemailer validator
+
+yarn add nodemon -D
+
+front-end  package 
+
+
+yarn add apexcharts axios jodit jodit-react jwt-decode moment html-to-text node-sass react-apexcharts react-facebook-login react-google-login react-helmet react-hot-toast react-html-parser
+
+yarn add react-icons react-redux react-router-dom@5 redux redux-thunk 
+
+yarn add @emailjs/browser
