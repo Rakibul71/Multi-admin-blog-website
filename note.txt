@@ -4,6 +4,26 @@ se nodemailer validator
 
 yarn add nodemon -D
 
+backend surver run korar jonno back end er package.json ea kisue change korte hobe 
+ secripts er vitor , "server":"backend/server.js"
+
+ dotenv file path create korte help kore 
+
+
+ for npm : 
+ "scripts": {
+    "server": "nodemon backend/server.js",
+    "client":"npm start --prefix frontend",
+    "dev":"concurrently \"npm run server\" \"npm run client\""
+  },
+
+  for yarn : 
+  "scripts": {
+    "server": "nodemon backend/server",
+    "client": "yarn --cwd frontend start",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  },
+
 front-end  package 
 
 
